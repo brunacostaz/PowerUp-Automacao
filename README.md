@@ -114,8 +114,8 @@ Para executar o projeto de maneira correta, você precisará adaptar as coordena
 * Copie as coordenadas x e y e substitua na linha **21** do arquivo `main.py`
 
 <div align=center>
-    <img src=".github/img-buscar-position.png" width= "300px">
-    <p><img src=".github/img-substituir-cod.png" width= "300px"></p>
+    <img src=".github/img-buscar-position.png" width= "400px"> <br><br>
+    <img src=".github/img-substituir-cod.png" width= "400px">
 </div>
 
 * Repita o processo de execução do arquivo `buscar-position.py` mais duas vezes: 
