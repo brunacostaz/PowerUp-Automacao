@@ -1,10 +1,4 @@
-# passo 1: abrir o chrome e acessar o site (https://dlp.hashtagtreinamentos.com/python/intensivao/tabela)
-# passo 2: fazer login com email e senha
-# passo 3: abrir o banco de dados com os produtos
-# passo 4: registrar os produtos na base de dados
-# passo 5: repetir o passo 4 até ter cadastrado todos os produtos
-
-#bibliotecas necessárias: pyautogui | time | pandas (openpyxl numpy)
+#bibliotecas necessárias: pyautogui | time | pandas (openpyxl numpy) | keyboard
 
 import pyautogui 
 import time 
@@ -23,7 +17,8 @@ time.sleep(3)
 
 #passo 2 - fazer o cadastro  
 #clicar no campo de email
-pyautogui.click(x=550, y=370)
+pyautogui.scroll(1000)
+pyautogui.click(x=544, y=317)
 
 #preencher email
 pyautogui.hotkey('ctrl','a')
@@ -34,7 +29,8 @@ pyautogui.press('tab')
 pyautogui.write('minhaprimeiraautomacao')
 
 #clicar no botão para entrar no cadastro
-pyautogui.click(x=670, y=527)
+pyautogui.scroll(1000)
+pyautogui.click(x=683, y=443)
 
 time.sleep(3)
 
@@ -42,14 +38,25 @@ time.sleep(3)
 
 base_dados = pandas.read_csv('produtos.csv')
 
+import keyboard
+
 #Passo 4 - registrar os produtos 
 for linha in base_dados.index:
-    #diminuir o tempo de pausa para cadastrar mais rápido       
+    pyautogui.scroll(1000)
 
+    #diminuir o tempo de pausa para cadastrar mais rápido       
     pyautogui.PAUSE = 0.5
 
+    time.sleep(1)
+
+    #checará se a tecla ESC foi pressionada
+    if keyboard.is_pressed('esc'):
+        #caso tenha sido pressionada, interromperá o loop 
+        print('Processo interrompido pelo usuário')
+        break
+
     #clicar no primeiro campo para escrever o código do produto
-    pyautogui.click(x=479, y=259)
+    pyautogui.click(x=492, y=227)
 
     #base_dados.loc[linha,coluna] - localiza o item pelo indice da linha e o nome da coluna
     pyautogui.write(str(base_dados.loc[linha,'codigo']))
@@ -76,5 +83,8 @@ for linha in base_dados.index:
     pyautogui.press('tab')
 
     pyautogui.press('enter')
-    pyautogui.scroll(1000)
+
+
+
+
 

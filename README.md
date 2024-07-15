@@ -1,6 +1,10 @@
 <h1 align=center>Python Power Up </h1>
 <p align=center> Automação de tarefas com Python </p>
 
+<video src=".github/video-powerup-python.mp4" controls loop></video>
+
+<br>
+
 ## 🔎 Índice
 
 * [Descrição do Projeto](#-descrição-do-projeto)
@@ -40,6 +44,8 @@ A oportunidade de ter esse contato mais profundo com python e as ferramentas que
 
 * `Time` - biblioteca para a manipulação de objetos de data e hora
 
+* `Keyboard` - biblioteca que permite capturar eventos de teclado e mouse em sistema operacionais Windows e Linux
+
 ## 🔨 Funcionalidades do projeto
 
 * `Abrir o sistema` - ele busca pelo Google Chrome, digita a url do sistema da empresa e acessa o site
@@ -49,6 +55,8 @@ A oportunidade de ter esse contato mais profundo com python e as ferramentas que
 * `Leitura da base de dados` - através da biblioteca `pandas`, o sistema faz a leitura da base de dados dos produtos que devem ser cadastrados e armazana para que a automação tenha acesso a todas as informações
 
 * `Cadastrar produtos` - cadastra todos os requisitos de cada produto, como o ID, categoria, preço unitário etc
+
+* `Interrupção da automação` - ao apertar e segurar a tecla **ESC**, a execução do código será interrompida. O ideal é realizar isso na finalização do cadastro de algum produto, pois a verificação acontece após o scroll da página
 
 ## 💻 Requisitos
 
@@ -62,6 +70,7 @@ Para rodar o projeto, você precisará baixar as seguintes bibliotecas:
 
 * `pyautogui`
 * `pandas`
+* `keyboard`
 
 Como sugestão, é interessante que você baixe essas outras duas para otimizar seu tempo, caso queira executar ou desenvolver projetos de análise de dados:
 
@@ -82,32 +91,51 @@ Para realizar a instalação das bibliotecas:
 
 * Abra o terminal do VS Code (Ctrl + J)
 
-* No canto superior esquerdo do terminal, clique na seta ao lado do + e selecione o "Command Prompt"
+* No canto superior direito do terminal, clique na seta ao lado do + e selecione o "Command Prompt"
 
-* Digite `pip install pyautogui pandas openpyxl numpy` e clique no enter
+* Digite `pip install pyautogui pandas keyboard openpyxl numpy` e clique no enter
 
 
 ## 🚨 Adaptações necessárias 
 
 Para executar o projeto de maneira correta, você precisará adaptar as coordenadas do clique do mouse para as posições corretas, de acordo com a disposição dos elementos do site na sua tela. 
 
-* Acesse a URL : https://dlp.hashtagtreinamentos.com/python/intensivao/login
+* Acesse o site: <a href="https://dlp.hashtagtreinamentos.com/python/intensivao/login"> SIstema Power Up</a>
 
-* Execute o arquivo `buscar-position.py`, abra o site e coloque o seu mouse na em cima do botão "Logar", na tela de login
+* Execute o arquivo `buscar-position.py`, abra o site e coloque o seu mouse em cima do campo de email, na tela de login
+
+<div align=center>
+    <img src=".github/login-sistema.png" width= "300px">
+</div>
+<br>
 
 * Aguarde 5 segundos e volte para o código
 
-* Copie as coordenadas x e y e substitua na linha **26** do arquivo `main.py`
+* Copie as coordenadas x e y e substitua na linha **21** do arquivo `main.py`
 
-* Depois disso, volte ao site e preencha um email e senha qualquer (pode ser fictício)
+<div align=center>
+    <img src=".github/img-buscar-position.png" width= "300px">
+    <p><img src=".github/img-substituir-cod.png" width= "300px"></p>
+</div>
 
-* Estando na tela de 'Formuláro de Cadastro de Produtos', repita o processo de execução do arquivo `buscar-position.py`, mas posicionando o seu mouse em cima do primeiro campo (Código do Produto)
+* Repita o processo de execução do arquivo `buscar-position.py` mais duas vezes: 
 
-* Cole as coordenadas na linha **52** do arquivo 'main.py'
+* Volte ao site e posicione o mouse em cima do botão **Logar** 
+
+* Copie as coordenadas e cole na linha **33** do arquivo `main.py`
+
+* Após isso, preencha um email e senha qualquer (pode ser fictício)
+
+* Estando na tela de 'Formuláro de Cadastro de Produtos', repita o processo, mas posicionando o seu mouse em cima do primeiro campo (Código do Produto)
+
+* Cole as coordenadas na linha **59** do arquivo `main.py`
 
 <hr>
-<br>
 Após realizar essas alterações, o código estará pronto para ser executado na sua máquina. Espero que goste! 🥰
+
+<br>
+
+Se tiver alguma dúvida ou precisar de ajuda, pode entrar em contato comigo (link do meu linkedin abaixo) 
 
 ## 🧑🏼‍🤝‍🧑🏻 Autores
 
