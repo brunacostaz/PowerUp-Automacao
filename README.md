@@ -1,6 +1,20 @@
 <h1 align=center>Python Power Up </h1>
 <p align=center> Automação de tarefas com Python </p>
 
+## 📍 Índice
+
+* [Descrição do Projeto](#-descrição-do-projeto)
+* [Experiência Adquirida](#-experiência-adquirida)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Funcionalidades do projeto](#-funcionalidades-do-projeto)
+* [Requisitos](#-requisitos)
+* [Dependências](#️-dependências)
+* [Como executar o Projeto](#-como-executar-o-projeto)
+* [Instalação](#-instalação)
+* [Adaptações Necessárias](#️-adaptações-necessárias)
+* [Autores](#-autores)
+
+
 ## 🤖 Descrição do Projeto
 
 O Power Up é um projeto de automação de tarefas, desenvolvido em python, que realiza o cadastro de produtos no sistema de uma empresa fictícia. Ele foi construído para realizar tarefas repetitivas e otimizar o tempo dos funcionários, que poderão focar em outras atividades e melhorar a qualidade de seu serviço, sem torná-lo monótono. 
