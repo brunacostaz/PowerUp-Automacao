@@ -1,10 +1,7 @@
 <h1 align=center>Python Power Up </h1>
 <p align=center> Automação de tarefas com Python </p>
 
-<video src=".github/video-powerup-python.mp4" controls loop></video>
-
 https://github.com/user-attachments/assets/bbebfddc-b686-4f9d-8ef9-b9ba3910f2eb
-
 
 <br>
 
