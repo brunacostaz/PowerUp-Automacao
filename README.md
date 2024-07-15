@@ -1,7 +1,7 @@
 <h1 align=center>Python Power Up </h1>
 <p align=center> Automação de tarefas com Python </p>
 
-## 📍 Índice
+## 🔎 Índice
 
 * [Descrição do Projeto](#-descrição-do-projeto)
 * [Experiência Adquirida](#-experiência-adquirida)
@@ -87,7 +87,7 @@ Para realizar a instalação das bibliotecas:
 * Digite `pip install pyautogui pandas openpyxl numpy` e clique no enter
 
 
-## 🖥️ Adaptações necessárias 
+## 🚨 Adaptações necessárias 
 
 Para executar o projeto de maneira correta, você precisará adaptar as coordenadas do clique do mouse para as posições corretas, de acordo com a disposição dos elementos do site na sua tela. 
 
