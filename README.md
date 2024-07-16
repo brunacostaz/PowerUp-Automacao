@@ -30,7 +30,7 @@ Esse projeto faz parte do meu aprendizado e aprofundamento em python, sendo o me
 
 Desenvolver o Power Up foi sensacional, pois pude consolidar os meus conhecimentos básicos da estrutura e sintaxe do python e expandir minha visão sobre as possibilidades que essa linguagem oferece. 
 
-Além disso, tive meu primeiro contato com a biblioteca Pandas, usada para análises de dados em diversos projetos, e conheci a biblioteca Pyautogui, responsável pela automatização do teclado, mouse e tela do computador, o que simplifica o código e nos permite criar projetos incríveis. 
+Além disso, tive meu primeiro contato com a biblioteca Pandas, usada para análise e tratamento de dados em diversos projetos, e conheci a biblioteca Pyautogui, responsável pela automatização do teclado, mouse e tela do computador, o que simplifica o código e nos permite criar projetos incríveis. 
 
 A oportunidade de ter esse contato mais profundo com python e as ferramentas que derivam dele foi dada pelo evento Jornada Python da <a href="https://www.linkedin.com/school/hashtag-treinamentos/">Hashtag</a>, com direcionamento do professor <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-rodrigues-de-lira-50664758/" target="_blank">João Lira</a>! Gratidão a toda a equipe por todos os ensimentos. 
 
@@ -40,7 +40,7 @@ A oportunidade de ter esse contato mais profundo com python e as ferramentas que
 
 * `Pyautogui` - biblioteca para automatização do teclado, mouse e tela do computador
 
-* `Pandas` - biblioteca para análise de dados
+* `Pandas` - biblioteca para análise e tratamento de dados
 
 * `Time` - biblioteca para a manipulação de objetos de data e hora
 
