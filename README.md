@@ -32,7 +32,7 @@ Desenvolver o Power Up foi sensacional, pois pude consolidar os meus conheciment
 
 Além disso, tive meu primeiro contato com a biblioteca Pandas, usada para análise e tratamento de dados em diversos projetos, e conheci a biblioteca Pyautogui, responsável pela automatização do teclado, mouse e tela do computador, o que simplifica o código e nos permite criar projetos incríveis. 
 
-A oportunidade de ter esse contato mais profundo com python e as ferramentas que derivam dele foi dada pelo evento Jornada Python da <a href="https://www.linkedin.com/school/hashtag-treinamentos/">Hashtag</a>, com direcionamento do professor <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-rodrigues-de-lira-50664758/" target="_blank">João Lira</a>! Gratidão a toda a equipe por todos os ensimentos. 
+A oportunidade de ter esse contato mais profundo com python e as ferramentas que derivam dele foi dada pelo evento Jornada Python da <a href="https://www.linkedin.com/school/hashtag-treinamentos/">Hashtag</a>, com direcionamento do professor <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-rodrigues-de-lira-50664758/" target="_blank">João Lira</a>! Gratidão a toda a equipe por todos os ensinamentos. 
 
 ## 🚀 Tecnologias utilizadas
  
@@ -52,7 +52,7 @@ A oportunidade de ter esse contato mais profundo com python e as ferramentas que
 
 * `Realizar o login` - realiza o login com email e senha passado para ele
 
-* `Leitura da base de dados` - através da biblioteca `pandas`, o sistema faz a leitura da base de dados dos produtos que devem ser cadastrados e armazana para que a automação tenha acesso a todas as informações
+* `Leitura da base de dados` - através da biblioteca `pandas`, o sistema faz a leitura da base de dados dos produtos que devem ser cadastrados e armazena para que a automação tenha acesso a todas as informações
 
 * `Cadastrar produtos` - cadastra todos os requisitos de cada produto, como o ID, categoria, preço unitário etc
 
